@@ -1,0 +1,22 @@
+<%= form_for(gendesc) do |f| %>
+  <% if gendesc.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(gendesc.errors.count, "error") %> prohibited this gendesc from being saved:</h2>
+
+      <ul>
+      <% gendesc.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :gendesc %>
+    <%= f.text_field :gendesc %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

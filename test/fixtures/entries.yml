@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  transaction: one
+  item: one
+  price: 
+  qty: 1.5
+  is_debit: false
+  account: one
+
+two:
+  transaction: two
+  item: two
+  price: 
+  qty: 1.5
+  is_debit: false
+  account: two

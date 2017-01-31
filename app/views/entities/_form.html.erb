@@ -1,0 +1,82 @@
+<%= form_for(entity) do |f| %>
+  <% if entity.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(entity.errors.count, "error") %> prohibited this entity from being saved:</h2>
+
+      <ul>
+      <% entity.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :no %>
+    <%= f.number_field :no %>
+  </div>
+
+  <div class="field">
+    <%= f.label :frac %>
+    <%= f.text_field :frac %>
+  </div>
+
+  <div class="field">
+    <%= f.label :unit %>
+    <%= f.text_field :unit %>
+  </div>
+
+  <div class="field">
+    <%= f.label :street %>
+    <%= f.text_field :street %>
+  </div>
+
+  <div class="field">
+    <%= f.label :box %>
+    <%= f.text_field :box %>
+  </div>
+
+  <div class="field">
+    <%= f.label :city %>
+    <%= f.text_field :city %>
+  </div>
+
+  <div class="field">
+    <%= f.label :polsub %>
+    <%= f.text_field :polsub %>
+  </div>
+
+  <div class="field">
+    <%= f.label :postal %>
+    <%= f.text_field :postal %>
+  </div>
+
+  <div class="field">
+    <%= f.label :nation %>
+    <%= f.text_field :nation %>
+  </div>
+
+  <div class="field">
+    <%= f.label :phone %>
+    <%= f.text_field :phone %>
+  </div>
+
+  <div class="field">
+    <%= f.label :email %>
+    <%= f.text_field :email %>
+  </div>
+
+  <div class="field">
+    <%= f.label :url %>
+    <%= f.text_field :url %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

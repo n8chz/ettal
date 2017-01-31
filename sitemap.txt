@@ -1,0 +1,66 @@
+          Prefix Verb   URI Pattern                      Controller#Action
+         entries GET    /entries(.:format)               entries#index
+                 POST   /entries(.:format)               entries#create
+       new_entry GET    /entries/new(.:format)           entries#new
+      edit_entry GET    /entries/:id/edit(.:format)      entries#edit
+           entry GET    /entries/:id(.:format)           entries#show
+                 PATCH  /entries/:id(.:format)           entries#update
+                 PUT    /entries/:id(.:format)           entries#update
+                 DELETE /entries/:id(.:format)           entries#destroy
+           users GET    /users(.:format)                 users#index
+                 POST   /users(.:format)                 users#create
+        new_user GET    /users/new(.:format)             users#new
+       edit_user GET    /users/:id/edit(.:format)        users#edit
+            user GET    /users/:id(.:format)             users#show
+                 PATCH  /users/:id(.:format)             users#update
+                 PUT    /users/:id(.:format)             users#update
+                 DELETE /users/:id(.:format)             users#destroy
+        accounts GET    /accounts(.:format)              accounts#index
+                 POST   /accounts(.:format)              accounts#create
+     new_account GET    /accounts/new(.:format)          accounts#new
+    edit_account GET    /accounts/:id/edit(.:format)     accounts#edit
+         account GET    /accounts/:id(.:format)          accounts#show
+                 PATCH  /accounts/:id(.:format)          accounts#update
+                 PUT    /accounts/:id(.:format)          accounts#update
+                 DELETE /accounts/:id(.:format)          accounts#destroy
+        gendescs GET    /gendescs(.:format)              gendescs#index
+                 POST   /gendescs(.:format)              gendescs#create
+     new_gendesc GET    /gendescs/new(.:format)          gendescs#new
+    edit_gendesc GET    /gendescs/:id/edit(.:format)     gendescs#edit
+         gendesc GET    /gendescs/:id(.:format)          gendescs#show
+                 PATCH  /gendescs/:id(.:format)          gendescs#update
+                 PUT    /gendescs/:id(.:format)          gendescs#update
+                 DELETE /gendescs/:id(.:format)          gendescs#destroy
+           items GET    /items(.:format)                 items#index
+                 POST   /items(.:format)                 items#create
+        new_item GET    /items/new(.:format)             items#new
+       edit_item GET    /items/:id/edit(.:format)        items#edit
+            item GET    /items/:id(.:format)             items#show
+                 PATCH  /items/:id(.:format)             items#update
+                 PUT    /items/:id(.:format)             items#update
+                 DELETE /items/:id(.:format)             items#destroy
+           units GET    /units(.:format)                 units#index
+                 POST   /units(.:format)                 units#create
+        new_unit GET    /units/new(.:format)             units#new
+       edit_unit GET    /units/:id/edit(.:format)        units#edit
+            unit GET    /units/:id(.:format)             units#show
+                 PATCH  /units/:id(.:format)             units#update
+                 PUT    /units/:id(.:format)             units#update
+                 DELETE /units/:id(.:format)             units#destroy
+    transactions GET    /transactions(.:format)          transactions#index
+                 POST   /transactions(.:format)          transactions#create
+ new_transaction GET    /transactions/new(.:format)      transactions#new
+edit_transaction GET    /transactions/:id/edit(.:format) transactions#edit
+     transaction GET    /transactions/:id(.:format)      transactions#show
+                 PATCH  /transactions/:id(.:format)      transactions#update
+                 PUT    /transactions/:id(.:format)      transactions#update
+                 DELETE /transactions/:id(.:format)      transactions#destroy
+        entities GET    /entities(.:format)              entities#index
+                 POST   /entities(.:format)              entities#create
+      new_entity GET    /entities/new(.:format)          entities#new
+     edit_entity GET    /entities/:id/edit(.:format)     entities#edit
+          entity GET    /entities/:id(.:format)          entities#show
+                 PATCH  /entities/:id(.:format)          entities#update
+                 PUT    /entities/:id(.:format)          entities#update
+                 DELETE /entities/:id(.:format)          entities#destroy
+

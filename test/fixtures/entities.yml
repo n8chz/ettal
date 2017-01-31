@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  'no': 1
+  frac: 1.5
+  unit: MyString
+  street: MyString
+  box: MyString
+  city: MyString
+  polsub: MyString
+  postal: MyString
+  nation: MyString
+  phone: MyString
+  email: MyString
+  url: MyString
+
+two:
+  name: MyString
+  'no': 1
+  frac: 1.5
+  unit: MyString
+  street: MyString
+  box: MyString
+  city: MyString
+  polsub: MyString
+  postal: MyString
+  nation: MyString
+  phone: MyString
+  email: MyString
+  url: MyString

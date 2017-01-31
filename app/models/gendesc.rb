@@ -1,0 +1,2 @@
+class Gendesc < ApplicationRecord
+end

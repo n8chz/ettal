@@ -1,0 +1,2 @@
+module GendescsHelper
+end

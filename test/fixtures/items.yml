@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  barcode: MyString
+  brand: MyString
+  gendesc: one
+  size: 1.5
+  unit: one
+
+two:
+  barcode: MyString
+  brand: MyString
+  gendesc: two
+  size: 1.5
+  unit: two

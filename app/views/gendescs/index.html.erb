@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Gendescs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Gendesc</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @gendescs.each do |gendesc| %>
+      <tr>
+        <td><%= gendesc.gendesc %></td>
+        <td><%= link_to 'Show', gendesc %></td>
+        <td><%= link_to 'Edit', edit_gendesc_path(gendesc) %></td>
+        <td><%= link_to 'Destroy', gendesc, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Gendesc', new_gendesc_path %>

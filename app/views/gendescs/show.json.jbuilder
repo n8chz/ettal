@@ -1,0 +1,1 @@
+json.partial! "gendescs/gendesc", gendesc: @gendesc
